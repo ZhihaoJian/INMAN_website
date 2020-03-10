@@ -1,0 +1,33 @@
+.category-container {
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
+.category-container .category-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+
+}
+
+.category-container .category-buttons > div {
+  border: 1px solid #45a99c;
+  color: #999;
+  height: 40px;
+  line-height: 40px;
+  width: 180px;
+  text-align: center;
+  letter-spacing: 4px;
+}
+
+.category-container .category-buttons > div:hover {
+  cursor: pointer;
+  background: #45a99c;
+  color: #fff;
+  transition: all 0.25s ease;
+}
+
+.category-container .category-buttons > div.active {
+  background: #45a99c;
+  color: #fff;
+}
